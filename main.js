@@ -18,8 +18,8 @@ mainLink.className = "main-link";
 mainLink.append("Google");
 mainLink.href = "https://www.google.com";
 mainLink.target = "_blank";
-mainDiv.append(mainLink);
+docBody.append(mainLink);
 
 mainButton.addEventListener("click", function () {
-  mainImg.remove();
+  mainDiv.remove();
 });
