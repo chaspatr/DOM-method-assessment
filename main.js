@@ -19,3 +19,7 @@ mainLink.append("Google");
 mainLink.href = "https://www.google.com";
 mainLink.target = "_blank";
 mainDiv.append(mainLink);
+
+mainButton.addEventListener("click", function () {
+  mainImg.remove();
+});
